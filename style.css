@@ -4,15 +4,18 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .decisions-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .decisions-matrix img {
   width: 100%;
 }
+
 .decisions-matrix,
 .more-inf {
   font-family: fantasy, cursive;
@@ -23,6 +26,7 @@ body {
     text-align: center;
   }
 }
+
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -44,6 +48,7 @@ ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style: none;
@@ -79,6 +84,7 @@ label[for='new-task'] {
   margin: 0;
   text-transform: uppercase;
 }
+
 .new-task {
   display: block;
 }
