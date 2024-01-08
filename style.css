@@ -37,6 +37,7 @@ body {
 
 .task-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 ul {
@@ -69,7 +70,7 @@ button:hover {
 
 /* Heading */
 h3,
-label [for='new-task'] {
+label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -78,8 +79,10 @@ label [for='new-task'] {
   margin: 0;
   text-transform: uppercase;
 }
-
-input [type='text'] {
+.new-task {
+  display: block;
+}
+input[type='text'] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -92,7 +95,7 @@ input [type='text'] {
   color: #888;
 }
 
-input [type='text']:focus {
+input[type='text']:focus {
   color: #333;
 }
 
@@ -132,7 +135,7 @@ li > input [type='text'] {
 }
 .delete img {
   height: 2em;
-  transform: rotateZ (45deg);
+  transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 .delete img:hover {
@@ -153,8 +156,9 @@ ul li input[type='text'] {
 ul li.edit-mode input[type='text'] {
   display: inline-block;
   width: 224px;
+  margin-left: 5px;
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display: none;
 }
